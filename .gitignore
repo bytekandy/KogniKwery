@@ -1,32 +1,12 @@
-# Environment & Secrets
-.env
-.env.local
-*.env
-
-# Virtual Environments
-.venv/
-venv/
-env/
-ENV/
-
-# Python Cache & Artifacts
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.pytest_cache/
-.coverage
-htmlcov/
+# Compiled Go binaries
+/kq
+kognikwery
+*.out
+bin/
 dist/
-build/
-*.egg-info/
 
-# IDE & OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-
+# Local KogniKwery session & Parquet cache
 .session_config.json
-.streamlit/
+.kq_cache/
+*.parquet
+.env

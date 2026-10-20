@@ -1,9 +1,0 @@
-{
-  "database": "DATAMIND_DB",
-  "schema": "PUBLIC",
-  "tables": [
-    "COUNTRIES",
-    "COUNTRY_INDICATORS"
-  ]
-}
-
